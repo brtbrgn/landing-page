@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+/* HEADER VE FOOTER */
+.header {
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+    color: #e5e7eb;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 52px;
+}
+
+/* İlk Section */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 800px;
+    max-height: 400px;
+    margin: 32px;;
+
+}
+
+.texty {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.texty > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+}
+
+button {
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    height: 50px;
+    border-color: #f9faf8;
+    font-size: 14px;
+    font-weight: bold;
+  
+}
+/* İkinci Section */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin: 32px;
+}
+
+.divdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 333px;
+    margin: 32px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.info-img {
+    max-width: 100px;
+}
+
+/* Üçüncü Section */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 128px 96px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote > p {
+    text-align: end;
+    font-style: normal;
+    font-size: 28px;
+}
+
+/* Son Section */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 15px;
+    margin: 16px;
+    padding: 32px;
+    width: 750px;
+    height: 50px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.card-text > p {
+    color: #e5e7eb;
+    font-weight: 400;
+    font-size: 16px;
+}
